@@ -1,0 +1,109 @@
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  /* width: 1200px; */
+}
+
+section {
+    margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.date {
+  width: 320px;
+  /* height: 420px; */
+  background-color: white;
+  border-radius: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: inset 0 0 0 5px rgba(0, 0, 0, 0.253);
+}
+
+.red-border{
+    background-color: #b03737;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 500;
+    color: white;
+    text-transform: uppercase;
+}
+#day {
+  border-radius: 60px 60px 0 0;
+  border-top: solid 5px rgba(0, 0, 0, 0.200);
+  border-left: solid 5px rgba(0, 0, 0, 0.200);
+  border-right: solid 5px rgba(0, 0, 0, 0.200);
+  height: 80px;
+
+
+}
+
+#day-month{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 6rem;
+    font-weight: 600;
+    color: #909090;
+    text-transform: uppercase;
+    line-height: 1.2em;
+    /* height: 272px; */
+    /* margin: 2rem */
+}
+#day-date{
+    font-size: 7rem;
+}
+
+
+#year {
+    border-radius:0 0 60px 60px ;
+    border-bottom: solid 5px rgba(0, 0, 0, 0.200);
+    border-left: solid 5px rgba(0, 0, 0, 0.200);
+    border-right: solid 5px rgba(0, 0, 0, 0.200);
+    height: 100px;
+
+  }
+
+.time {
+  width: 600px;
+  height: 420px;
+  font-size: 10rem;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  font-weight: 600;
+  font-size: 9rem;
+  color: #474747
+}
+.time:hover{
+    cursor: pointer;
+    color: #212121;
+}
+
+#seconds{
+    font-size: 0.5em;
+}
+
+#noon-status{
+    font-size: 5rem;
+    color: #ffffff;
+}
