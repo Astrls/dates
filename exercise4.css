@@ -96,7 +96,7 @@ section {
 }
 .time:hover{
     cursor: pointer;
-    s
+    color: #212121;
 }
 
 #seconds{
